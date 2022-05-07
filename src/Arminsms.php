@@ -53,7 +53,7 @@ class Arminsms extends Resource
                 ->required()
                 ->rules('required'),
 
-            Text::make(__('Number'), 'number')
+            Text::make(__('Number'), 'from')
                 ->required()
                 ->rules('required', 'numeric'),
         ];
